@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ode SYSTEM "content.dtd">
+<ode xmlns="http://www.intef.es/xsd/ode" version="2.0">
+<userPreferences>
+  <userPreference>
+    <key>theme</key>
+    <value>base</value>
+  </userPreference>
+</userPreferences>
+<odeResources>
+  <odeResource>
+    <key>odeId</key>
+    <value>202604221154311LFP91</value>
+  </odeResource>
+  <odeResource>
+    <key>odeVersionId</key>
+    <value>20260422115431CKNX4D</value>
+  </odeResource>
+  <odeResource>
+    <key>exe_version</key>
+    <value>3.0</value>
+  </odeResource>
+</odeResources>
+<odeProperties>
+  <odeProperty>
+    <key>pp_title</key>
+    <value>Escucharse para mejorar: la grabación como herramienta en el aprendizaje del piano</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_author</key>
+    <value>Raúl Jiménez Medina</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_description</key>
+    <value>Centro de interés o temática:
+El proyecto gira en torno al uso de la grabación y la autoevaluación como herramienta para mejorar la interpretación pianística. Se busca que el alumnado tome conciencia de su propio sonido, su postura y su forma de tocar, utilizando la tecnología como apoyo.
+Nivel al que va dirigido
+Está pensado para alumnado de enseñanzas elementales de piano, especialmente entre 2º y 4º curso (aproximadamente entre 10 y 12 años), ya que es un momento en el que empiezan a desarrollar mayor capacidad de reflexión sobre su propio aprendizaje
+Temporalización aproximada
+Se desarrollará a lo largo de 4 semanas, integrándose dentro de las clases habituales de instrumento. Cada semana se dedicará una parte de la sesión a trabajar la grabación, escucha y reflexión.
+Materia o materias implicadas:
+Principalmente la asignatura de Piano, aunque también se trabajan de forma transversal aspectos relacionados con el lenguaje musical (ritmo, expresión, fraseo) y la competencia digital.
+Idioma:
+Español
+Descripción general:
+El objetivo de este proyecto es que el alumnado aprenda a escucharse de forma crítica y constructiva, utilizando la grabación como herramienta de mejora.
+A lo largo de las sesiones, los alumnos interpretarán pequeñas piezas o fragmentos, se grabarán y posteriormente escucharán su interpretación. A partir de ahí, deberán identificar aspectos concretos a mejorar, como el ritmo, la precisión, la dinámica o la postura.
+Se les proporcionarán pautas sencillas para guiar la escucha, adaptadas a su nivel, con el fin de que poco a poco sean más autónomos en este proceso. También se trabajará la comparación con interpretaciones de referencia.
+Además, se incluirán pequeñas estrategias para que el alumnado aprenda a resolver problemas técnicos básicos (uso del dispositivo, grabación, reproducción), fomentando su autonomía.
+Justificación:
+Este proyecto surge a partir de la reflexión realizada sobre mi propia práctica docente en la tarea anterior. En esa experiencia, pude comprobar que el uso de la tecnología (en concreto, la grabación) tenía un gran potencial para mejorar el aprendizaje del alumnado, pero también que no siempre estaba bien integrada.
+Por un lado, observé que algunos alumnos eran capaces de hacer una buena autoevaluación al escucharse, lo cual es muy valioso en el aprendizaje de un instrumento. Sin embargo, también detecté dificultades, tanto a nivel técnico (uso de los dispositivos) como pedagógico (falta de criterios claros para analizar su interpretación).
+A partir de ahí, este proyecto intenta dar respuesta a esos problemas. Se plantea una introducción más progresiva de la tecnología, con pautas claras y adaptadas al nivel del alumnado. También se busca desarrollar su competencia para resolver pequeños problemas técnicos por sí mismos, algo que en la experiencia anterior no estaba suficientemente trabajado.
+Además, se tiene en cuenta que no todo el alumnado vive la grabación de la misma manera. Por eso, se plantea un enfoque que reduzca la posible inseguridad y que convierta la actividad en algo habitual y natural dentro de la clase.
+Desde un punto de vista pedagógico, este proyecto pretende equilibrar el uso de la tecnología con la práctica musical real, evitando que la herramienta se convierta en un fin en sí mismo. La idea es que la tecnología esté al servicio del aprendizaje, no al revés.
+En definitiva, este proyecto nace de la necesidad de mejorar mi propia práctica docente, haciendo un uso más consciente, planificado y útil de la tecnología en el aula de piano.
+</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_lang</key>
+    <value>es</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_license</key>
+    <value>creative commons: attribution - share alike 4.0</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_licenseUrl</key>
+    <value>https://creativecommons.org/licenses/by-sa/4.0/</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_theme</key>
+    <value>base</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_exelearning_version</key>
+    <value>v4.0.0-rc1</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_modified</key>
+    <value>1776847446736</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addExeLink</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addPagination</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addSearchBox</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addAccessibilityToolbar</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addMathJax</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>exportSource</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_globalFont</key>
+    <value>default</value>
+  </odeProperty>
+</odeProperties>
+<odeNavStructures>
+<odeNavStructure>
+  <odePageId>730d45a9-6d6d-4c4c-8f09-705ddacb40b5</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>DESCRIPCIÓN DE LA ACTIVIDAD</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>DESCRIPCIÓN DE LA ACTIVIDAD</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>DESCRIPCIÓN DE LA ACTIVIDAD</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>730d45a9-6d6d-4c4c-8f09-705ddacb40b5</odePageId>
+      <odeBlockId>block-1776847482420-c12svs5yi</odeBlockId>
+      <blockName>DESCRIPCIÓN DE LA ACTIVIDAD</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>730d45a9-6d6d-4c4c-8f09-705ddacb40b5</odePageId>
+          <odeBlockId>block-1776847482420-c12svs5yi</odeBlockId>
+          <odeIdeviceId>idevice-1776847482417-pxomplr8b</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><strong>Centro de interés o temática</strong><br />El proyecto gira en torno al uso de la grabación y la autoevaluación como herramienta para mejorar la interpretación pianística. Se busca que el alumnado tome conciencia de su propio sonido, su postura y su forma de tocar, utilizando la tecnología como apoyo.</p>
+<p><strong>Nivel al que va dirigido</strong><br />Está pensado para alumnado de enseñanzas elementales de piano, especialmente entre 2º y 4º curso (aproximadamente entre 10 y 12 años), ya que es un momento en el que empiezan a desarrollar mayor capacidad de reflexión sobre su propio aprendizaje</p>
+<p><strong>Temporalización aproximada</strong><br />Se desarrollará a lo largo de 4 semanas, integrándose dentro de las clases habituales de instrumento. Cada semana se dedicará una parte de la sesión a trabajar la grabación, escucha y reflexión.</p>
+<p>Materia o materias implicadas<br />Principalmente la asignatura de Piano, aunque también se trabajan de forma transversal aspectos relacionados con el lenguaje musical (ritmo, expresión, fraseo) y la competencia digital.</p>
+<p><strong>Idioma</strong><br />Español</p>
+<p><strong>Descripción general</strong><br />El objetivo de este proyecto es que el alumnado aprenda a escucharse de forma crítica y constructiva, utilizando la grabación como herramienta de mejora.</p>
+<p>A lo largo de las sesiones, los alumnos interpretarán pequeñas piezas o fragmentos, se grabarán y posteriormente escucharán su interpretación. A partir de ahí, deberán identificar aspectos concretos a mejorar, como el ritmo, la precisión, la dinámica o la postura.</p>
+<p>Se les proporcionarán pautas sencillas para guiar la escucha, adaptadas a su nivel, con el fin de que poco a poco sean más autónomos en este proceso. También se trabajará la comparación con interpretaciones de referencia.</p>
+<p>Además, se incluirán pequeñas estrategias para que el alumnado aprenda a resolver problemas técnicos básicos (uso del dispositivo, grabación, reproducción), fomentando su autonomía.</p>
+<p><strong>Justificación</strong><br />Este proyecto surge a partir de la reflexión realizada sobre mi propia práctica docente en la tarea anterior. En esa experiencia, pude comprobar que el uso de la tecnología (en concreto, la grabación) tenía un gran potencial para mejorar el aprendizaje del alumnado, pero también que no siempre estaba bien integrada.</p>
+<p>Por un lado, observé que algunos alumnos eran capaces de hacer una buena autoevaluación al escucharse, lo cual es muy valioso en el aprendizaje de un instrumento. Sin embargo, también detecté dificultades, tanto a nivel técnico (uso de los dispositivos) como pedagógico (falta de criterios claros para analizar su interpretación).</p>
+<p>A partir de ahí, este proyecto intenta dar respuesta a esos problemas. Se plantea una introducción más progresiva de la tecnología, con pautas claras y adaptadas al nivel del alumnado. También se busca desarrollar su competencia para resolver pequeños problemas técnicos por sí mismos, algo que en la experiencia anterior no estaba suficientemente trabajado.</p>
+<p>Además, se tiene en cuenta que no todo el alumnado vive la grabación de la misma manera. Por eso, se plantea un enfoque que reduzca la posible inseguridad y que convierta la actividad en algo habitual y natural dentro de la clase.</p>
+<p>Desde un punto de vista pedagógico, este proyecto pretende equilibrar el uso de la tecnología con la práctica musical real, evitando que la herramienta se convierta en un fin en sí mismo. La idea es que la tecnología esté al servicio del aprendizaje, no al revés.</p>
+<p>En definitiva, este proyecto nace de la necesidad de mejorar mi propia práctica docente, haciendo un uso más consciente, planificado y útil de la tecnología en el aula de piano.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1776847482417-pxomplr8b","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Centro de interés o temática</strong><br />El proyecto gira en torno al uso de la grabación y la autoevaluación como herramienta para mejorar la interpretación pianística. Se busca que el alumnado tome conciencia de su propio sonido, su postura y su forma de tocar, utilizando la tecnología como apoyo.</p>\n<p><strong>Nivel al que va dirigido</strong><br />Está pensado para alumnado de enseñanzas elementales de piano, especialmente entre 2º y 4º curso (aproximadamente entre 10 y 12 años), ya que es un momento en el que empiezan a desarrollar mayor capacidad de reflexión sobre su propio aprendizaje</p>\n<p><strong>Temporalización aproximada</strong><br />Se desarrollará a lo largo de 4 semanas, integrándose dentro de las clases habituales de instrumento. Cada semana se dedicará una parte de la sesión a trabajar la grabación, escucha y reflexión.</p>\n<p>Materia o materias implicadas<br />Principalmente la asignatura de Piano, aunque también se trabajan de forma transversal aspectos relacionados con el lenguaje musical (ritmo, expresión, fraseo) y la competencia digital.</p>\n<p><strong>Idioma</strong><br />Español</p>\n<p><strong>Descripción general</strong><br />El objetivo de este proyecto es que el alumnado aprenda a escucharse de forma crítica y constructiva, utilizando la grabación como herramienta de mejora.</p>\n<p>A lo largo de las sesiones, los alumnos interpretarán pequeñas piezas o fragmentos, se grabarán y posteriormente escucharán su interpretación. A partir de ahí, deberán identificar aspectos concretos a mejorar, como el ritmo, la precisión, la dinámica o la postura.</p>\n<p>Se les proporcionarán pautas sencillas para guiar la escucha, adaptadas a su nivel, con el fin de que poco a poco sean más autónomos en este proceso. También se trabajará la comparación con interpretaciones de referencia.</p>\n<p>Además, se incluirán pequeñas estrategias para que el alumnado aprenda a resolver problemas técnicos básicos (uso del dispositivo, grabación, reproducción), fomentando su autonomía.</p>\n<p><strong>Justificación</strong><br />Este proyecto surge a partir de la reflexión realizada sobre mi propia práctica docente en la tarea anterior. En esa experiencia, pude comprobar que el uso de la tecnología (en concreto, la grabación) tenía un gran potencial para mejorar el aprendizaje del alumnado, pero también que no siempre estaba bien integrada.</p>\n<p>Por un lado, observé que algunos alumnos eran capaces de hacer una buena autoevaluación al escucharse, lo cual es muy valioso en el aprendizaje de un instrumento. Sin embargo, también detecté dificultades, tanto a nivel técnico (uso de los dispositivos) como pedagógico (falta de criterios claros para analizar su interpretación).</p>\n<p>A partir de ahí, este proyecto intenta dar respuesta a esos problemas. Se plantea una introducción más progresiva de la tecnología, con pautas claras y adaptadas al nivel del alumnado. También se busca desarrollar su competencia para resolver pequeños problemas técnicos por sí mismos, algo que en la experiencia anterior no estaba suficientemente trabajado.</p>\n<p>Además, se tiene en cuenta que no todo el alumnado vive la grabación de la misma manera. Por eso, se plantea un enfoque que reduzca la posible inseguridad y que convierta la actividad en algo habitual y natural dentro de la clase.</p>\n<p>Desde un punto de vista pedagógico, este proyecto pretende equilibrar el uso de la tecnología con la práctica musical real, evitando que la herramienta se convierta en un fin en sí mismo. La idea es que la tecnología esté al servicio del aprendizaje, no al revés.</p>\n<p>En definitiva, este proyecto nace de la necesidad de mejorar mi propia práctica docente, haciendo un uso más consciente, planificado y útil de la tecnología en el aula de piano.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1776847701176-ksduwrj4e</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>LICENCIAS Y SEGURIDAD</pageName>
+  <odeNavStructureOrder>1</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>LICENCIAS Y SEGURIDAD</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1776847701176-ksduwrj4e</odePageId>
+      <odeBlockId>block-1776847715803-5z24ucwpa</odeBlockId>
+      <blockName></blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1776847701176-ksduwrj4e</odePageId>
+      <odeBlockId>block-1776847836907-frgqtj1ry</odeBlockId>
+      <blockName></blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1776847701176-ksduwrj4e</odePageId>
+      <odeBlockId>block-1776847999177-1jdu6ph8v</odeBlockId>
+      <blockName>INFOGRAFÍA</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1776847701176-ksduwrj4e</odePageId>
+          <odeBlockId>block-1776847999177-1jdu6ph8v</odeBlockId>
+          <odeIdeviceId>idevice-1776847999174-3g7ovh96k</odeIdeviceId>
+          <odeIdeviceTypeName>select-media-files</odeIdeviceTypeName>
+          <htmlView><![CDATA[]]></htmlView>
+          <jsonProperties></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1776847701176-ksduwrj4e</odePageId>
+      <odeBlockId>block-1776848224508-fk8w8otir</odeBlockId>
+      <blockName>Grábate, compártelo... pero hazo con seguridad</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>3</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1776847701176-ksduwrj4e</odePageId>
+          <odeBlockId>block-1776848224508-fk8w8otir</odeBlockId>
+          <odeIdeviceId>idevice-1776848224505-8kipm5c6o</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><embed width="600" height="300" src="{{context_path}}/content/resources/INFOGRAFIA (1).pdf" type="application/pdf"></embed></p>
+<p></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1776848224505-8kipm5c6o","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><embed width=\"600\" height=\"300\" src=\"{{context_path}}/content/resources/INFOGRAFIA (1).pdf\" type=\"application/pdf\"></embed></p>\n<p></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1776848610029-8bkh4hclg</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>HERRAMIENTAS PARA EL PRODUCTO FINAL</pageName>
+  <odeNavStructureOrder>2</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>HERRAMIENTAS PARA EL PRODUCTO FINAL</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>HERRAMIENTAS PARA EL PRODUCTO FINAL</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1776848610029-8bkh4hclg</odePageId>
+      <odeBlockId>block-1776848613394-r7n2txyjr</odeBlockId>
+      <blockName>Uso de grabaciones de vídeo y Google Drive para la autoevaluación en clase de piano</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1776848610029-8bkh4hclg</odePageId>
+          <odeBlockId>block-1776848613394-r7n2txyjr</odeBlockId>
+          <odeIdeviceId>idevice-1776848613392-8uzxmvz59</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><strong>Producto final y herramientas digitales</strong><br />El producto final de la situación de aprendizaje, centrada en la autoevaluación en la interpretación pianística, se basa en la grabación de vídeo mediante tablets o teléfonos móviles del centro, junto con el uso de Google Drive para el almacenamiento y la compartición de los archivos.</p>
+<p><strong>Objetivo de la actividad</strong><br />El objetivo es que el alumnado se grabe interpretando una pequeña pieza musical y, posteriormente, pueda escucharse y analizar su propia ejecución. Se prestará atención a aspectos como el ritmo, la postura, la dinámica y la expresividad.</p>
+<p>A partir de esta observación, el alumnado realizará una breve reflexión guiada en la que identifique tanto los aspectos logrados como aquellos susceptibles de mejora.</p>
+<p><strong>Justificación de las herramientas</strong><br />La elección de estas herramientas responde a varios motivos. Por un lado, son accesibles en el contexto del conservatorio, ya que no requieren programas complejos ni instalaciones específicas. Por otro, el alumnado, con edades comprendidas entre los 10 y los 12 años, suele tener cierto contacto previo con estos dispositivos, aunque todavía necesita orientación en su uso.</p>
+<p>Además, se prioriza la sencillez: la grabación y reproducción de vídeo es un proceso directo que permite centrar la atención en lo realmente importante, que es la escucha activa y la mejora de la interpretación musical, evitando que la herramienta tecnológica se convierta en una distracción.</p>
+<p><strong>Atención a la accesibilidad y organización</strong><br />En cuanto a la accesibilidad, el centro dispone de algunos dispositivos, aunque no suficientes para un uso individual continuo, por lo que la actividad se organiza por turnos.</p>
+<p>Asimismo, se fomenta que el alumnado desarrolle pequeñas estrategias para resolver problemas técnicos básicos relacionados con el audio, la grabación o el guardado de archivos, ya que estas dificultades pueden generar inseguridad si no se trabajan previamente.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1776848613392-8uzxmvz59","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Producto final y herramientas digitales</strong><br />El producto final de la situación de aprendizaje, centrada en la autoevaluación en la interpretación pianística, se basa en la grabación de vídeo mediante tablets o teléfonos móviles del centro, junto con el uso de Google Drive para el almacenamiento y la compartición de los archivos.</p>\n<p><strong>Objetivo de la actividad</strong><br />El objetivo es que el alumnado se grabe interpretando una pequeña pieza musical y, posteriormente, pueda escucharse y analizar su propia ejecución. Se prestará atención a aspectos como el ritmo, la postura, la dinámica y la expresividad.</p>\n<p>A partir de esta observación, el alumnado realizará una breve reflexión guiada en la que identifique tanto los aspectos logrados como aquellos susceptibles de mejora.</p>\n<p><strong>Justificación de las herramientas</strong><br />La elección de estas herramientas responde a varios motivos. Por un lado, son accesibles en el contexto del conservatorio, ya que no requieren programas complejos ni instalaciones específicas. Por otro, el alumnado, con edades comprendidas entre los 10 y los 12 años, suele tener cierto contacto previo con estos dispositivos, aunque todavía necesita orientación en su uso.</p>\n<p>Además, se prioriza la sencillez: la grabación y reproducción de vídeo es un proceso directo que permite centrar la atención en lo realmente importante, que es la escucha activa y la mejora de la interpretación musical, evitando que la herramienta tecnológica se convierta en una distracción.</p>\n<p><strong>Atención a la accesibilidad y organización</strong><br />En cuanto a la accesibilidad, el centro dispone de algunos dispositivos, aunque no suficientes para un uso individual continuo, por lo que la actividad se organiza por turnos.</p>\n<p>Asimismo, se fomenta que el alumnado desarrolle pequeñas estrategias para resolver problemas técnicos básicos relacionados con el audio, la grabación o el guardado de archivos, ya que estas dificultades pueden generar inseguridad si no se trabajan previamente.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1776848988582-uruq8ekuo</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>CURACIÓN DE CONTENIDO</pageName>
+  <odeNavStructureOrder>3</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>CURACIÓN DE CONTENIDO</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1776848988582-uruq8ekuo</odePageId>
+      <odeBlockId>block-1776848990591-8n34t5nww</odeBlockId>
+      <blockName>Texto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1776848988582-uruq8ekuo</odePageId>
+          <odeBlockId>block-1776848990591-8n34t5nww</odeBlockId>
+          <odeIdeviceId>idevice-1776848990588-x2ikpx7dc</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><strong>Curación de contenidos en mi práctica docente</strong><br />En mi trabajo diario como profesor de piano, la curación de contenidos se ha convertido en una parte importante, sobre todo a raíz de incorporar herramientas digitales en el aula. Con el tiempo he ido aprendiendo que no se trata de ofrecer muchos recursos, sino de seleccionar bien aquellos que realmente van a ayudar al alumnado.</p>
+<p><strong>Necesidades del alumnado</strong><br />El alumnado con el que trabajo, en enseñanzas elementales, necesita principalmente ejemplos claros de interpretación, explicaciones sencillas y recursos que sean fáciles de utilizar. En muchos casos, no tienen todavía una gran autonomía digital, por lo que es importante que los materiales sean accesibles y no demasiado complejos.</p>
+<p><strong>Selección y filtrado de la información</strong><br />Suelo buscar recursos en plataformas como YouTube o páginas relacionadas con la educación musical. A partir de ahí, hago una selección bastante cuidadosa. Evito contenidos demasiado avanzados o con explicaciones excesivamente técnicas, ya que pueden generar frustración. Prefiero materiales concretos que se ajusten al nivel real del alumnado.</p>
+<p><strong>Organización de la información</strong><br />Para evitar acumular información sin orden, organizo los contenidos por bloques: por ejemplo, según la obra que se esté trabajando, el tipo de actividad (escuchar, practicar, grabar) o el nivel de dificultad. Esto facilita que el alumnado pueda acceder a lo que necesita sin perderse.</p>
+<p><strong>Compartir el contenido</strong><br />Los recursos se comparten mediante enlaces o plataformas sencillas. En muchas ocasiones, primero los vemos en clase para asegurarme de que entienden cómo utilizarlos, y después los pueden consultar de forma autónoma.</p>
+<p><strong>Evaluación de resultados</strong><br />Valoro si los recursos están funcionando observando si el alumnado los utiliza, si mejora su interpretación y si muestran interés. También tengo en cuenta sus aportaciones, ya que en ocasiones ellos mismos sugieren herramientas o vídeos que pueden ser útiles.</p>
+<p style="text-align: center;"> <br /><strong>Primera curación de contenidos (para el alumnado)</strong><br />Para esta parte he elegido Padlet, ya que es una herramienta visual, sencilla y adecuada para el nivel del alumnado.</p>
+<p>Enlace: <a href="https://padlet.com/rjimmed255/clase-de-piano-aqy0yxndcpfbp0bv" title="">https://padlet.com/rjimmed255/clase-de-piano-aqy0yxndcpfbp0bv</a></p>
+<p style="text-align: center;"> <br /><strong>Segunda curación de contenidos (para uso docente)</strong><br />En este caso utilizo Symbaloo, porque permite organizar los recursos de forma clara y visual, lo que facilita su uso en el día a día.</p>
+<p>Enlace: <a href="https://www.symbaloo.com/shared/AAAAAa99ZroAA41-5ENFtQ==" title="">https://www.symbaloo.com/shared/AAAAAa99ZroAA41-5ENFtQ==</a><br /></p>
+<p><strong>Conclusión</strong></p>
+<p>A partir de la experiencia, he comprobado que la curación de contenidos es útil cuando está bien enfocada y adaptada al alumnado. No se trata de acumular materiales, sino de seleccionar aquellos que realmente aportan valor y facilitan el aprendizaje.</p>
+<p>También considero importante mantener una organización clara y revisar periódicamente los recursos para asegurar que siguen siendo adecuados.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1776848990588-x2ikpx7dc","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Curación de contenidos en mi práctica docente</strong><br />En mi trabajo diario como profesor de piano, la curación de contenidos se ha convertido en una parte importante, sobre todo a raíz de incorporar herramientas digitales en el aula. Con el tiempo he ido aprendiendo que no se trata de ofrecer muchos recursos, sino de seleccionar bien aquellos que realmente van a ayudar al alumnado.</p>\n<p><strong>Necesidades del alumnado</strong><br />El alumnado con el que trabajo, en enseñanzas elementales, necesita principalmente ejemplos claros de interpretación, explicaciones sencillas y recursos que sean fáciles de utilizar. En muchos casos, no tienen todavía una gran autonomía digital, por lo que es importante que los materiales sean accesibles y no demasiado complejos.</p>\n<p><strong>Selección y filtrado de la información</strong><br />Suelo buscar recursos en plataformas como YouTube o páginas relacionadas con la educación musical. A partir de ahí, hago una selección bastante cuidadosa. Evito contenidos demasiado avanzados o con explicaciones excesivamente técnicas, ya que pueden generar frustración. Prefiero materiales concretos que se ajusten al nivel real del alumnado.</p>\n<p><strong>Organización de la información</strong><br />Para evitar acumular información sin orden, organizo los contenidos por bloques: por ejemplo, según la obra que se esté trabajando, el tipo de actividad (escuchar, practicar, grabar) o el nivel de dificultad. Esto facilita que el alumnado pueda acceder a lo que necesita sin perderse.</p>\n<p><strong>Compartir el contenido</strong><br />Los recursos se comparten mediante enlaces o plataformas sencillas. En muchas ocasiones, primero los vemos en clase para asegurarme de que entienden cómo utilizarlos, y después los pueden consultar de forma autónoma.</p>\n<p><strong>Evaluación de resultados</strong><br />Valoro si los recursos están funcionando observando si el alumnado los utiliza, si mejora su interpretación y si muestran interés. También tengo en cuenta sus aportaciones, ya que en ocasiones ellos mismos sugieren herramientas o vídeos que pueden ser útiles.</p>\n<p style=\"text-align: center;\"> <br /><strong>Primera curación de contenidos (para el alumnado)</strong><br />Para esta parte he elegido Padlet, ya que es una herramienta visual, sencilla y adecuada para el nivel del alumnado.</p>\n<p>Enlace: <a href=\"https://padlet.com/rjimmed255/clase-de-piano-aqy0yxndcpfbp0bv\" title=\"\">https://padlet.com/rjimmed255/clase-de-piano-aqy0yxndcpfbp0bv</a></p>\n<p style=\"text-align: center;\"> <br /><strong>Segunda curación de contenidos (para uso docente)</strong><br />En este caso utilizo Symbaloo, porque permite organizar los recursos de forma clara y visual, lo que facilita su uso en el día a día.</p>\n<p>Enlace: <a href=\"https://www.symbaloo.com/shared/AAAAAa99ZroAA41-5ENFtQ==\" title=\"\">https://www.symbaloo.com/shared/AAAAAa99ZroAA41-5ENFtQ==</a><br /></p>\n<p><strong>Conclusión</strong></p>\n<p>A partir de la experiencia, he comprobado que la curación de contenidos es útil cuando está bien enfocada y adaptada al alumnado. No se trata de acumular materiales, sino de seleccionar aquellos que realmente aportan valor y facilitan el aprendizaje.</p>\n<p>También considero importante mantener una organización clara y revisar periódicamente los recursos para asegurar que siguen siendo adecuados.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1776849316928-pei3b9pa2</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>LÍNEA TEMPORAL PARA LA ORGANIZACIÓN</pageName>
+  <odeNavStructureOrder>4</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>LÍNEA TEMPORAL PARA LA ORGANIZACIÓN</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1776849316928-pei3b9pa2</odePageId>
+      <odeBlockId>block-1776849321195-9m504nk6p</odeBlockId>
+      <blockName>Texto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1776849316928-pei3b9pa2</odePageId>
+          <odeBlockId>block-1776849321195-9m504nk6p</odeBlockId>
+          <odeIdeviceId>idevice-1776849321193-qxhvdextx</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>LÍNEA TEMPORAL – PROYECTO “Escucharse para mejorar”<br /></p>
+<p>SESIÓN 1<br />↓<br />Interpretación inicial<br />- Tarea: tocar una pieza breve<br />- Agrupamiento: individual<br />- Espacio: aula de piano<br />- Herramientas: piano / grabación básica<br />- Objetivo: detectar nivel de partida</p>
+<p>↓</p>
+<p>SESIÓN 2<br />↓<br />Escucha de referencia + explicación<br />- Tarea: ver vídeo y comentar<br />- Agrupamiento: individual (guiado)<br />- Espacio: aula<br />- Herramientas: YouTube<br />- Objetivo: desarrollar escucha crítica</p>
+<p>↓</p>
+<p>SESIÓN 3<br />↓<br />Aprender a grabarse<br />- Tarea: práctica de grabación<br />- Agrupamiento: individual<br />- Espacio: aula<br />- Herramientas: tablet/móvil<br />- Objetivo: autonomía digital básica</p>
+<p>↓</p>
+<p>SESIÓN 4<br />↓<br />Primera grabación<br />- Tarea: grabar interpretación<br />- Agrupamiento: individual<br />- Espacio: aula<br />- Herramientas: cámara + Google Drive<br />- Objetivo: recoger evidencia inicial</p>
+<p>↓</p>
+<p>SESIÓN 5<br />↓<br />Autoevaluación<br />- Tarea: escuchar y analizar<br />- Agrupamiento: individual<br />- Espacio: aula<br />- Herramientas: vídeo + diana<br />- Objetivo: detectar errores</p>
+<p>↓</p>
+<p>SESIÓN 6-7<br />↓<br />Trabajo de mejora<br />- Tarea: practicar aspectos concretos<br />- Agrupamiento: individual<br />- Espacio: aula<br />- Herramientas: piano<br />- Objetivo: corregir errores</p>
+<p>↓</p>
+<p>SESIÓN 8<br />↓<br />Segunda grabación<br />- Tarea: grabar versión mejorada<br />- Agrupamiento: individual<br />- Espacio: aula<br />- Herramientas: cámara + Google Drive<br />- Objetivo: comprobar evolución</p>
+<p>↓</p>
+<p>SESIÓN 9<br />↓<br />Comparación<br />- Tarea: comparar grabaciones<br />- Agrupamiento: individual<br />- Espacio: aula<br />- Herramientas: Drive + vídeo<br />- Objetivo: desarrollar autocrítica</p>
+<p>↓</p>
+<p>SESIÓN 10<br />↓<br />Interpretación final<br />- Tarea: tocar pieza completa<br />- Agrupamiento: individual<br />- Espacio: aula / audición<br />- Herramientas: piano<br />- Objetivo: resultado final</p>
+<p>↓</p>
+<p>SESIÓN 11<br />↓<br />Pequeña audición<br />- Tarea: interpretación final<br />- Agrupamiento: individual<br />- Espacio: aula / sala<br />- Herramientas: piano / grabación opcional<br />- Objetivo: comunicación musical</p>
+<p><img src="{{context_path}}/content/resources/VISUAL LÍNEA TIEMPO.png" title="línea temporal" width="1528" height="1019" alt="línea temporal" /></p>
+<p></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1776849321193-qxhvdextx","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>LÍNEA TEMPORAL – PROYECTO “Escucharse para mejorar”<br /></p>\n<p>SESIÓN 1<br />↓<br />Interpretación inicial<br />- Tarea: tocar una pieza breve<br />- Agrupamiento: individual<br />- Espacio: aula de piano<br />- Herramientas: piano / grabación básica<br />- Objetivo: detectar nivel de partida</p>\n<p>↓</p>\n<p>SESIÓN 2<br />↓<br />Escucha de referencia + explicación<br />- Tarea: ver vídeo y comentar<br />- Agrupamiento: individual (guiado)<br />- Espacio: aula<br />- Herramientas: YouTube<br />- Objetivo: desarrollar escucha crítica</p>\n<p>↓</p>\n<p>SESIÓN 3<br />↓<br />Aprender a grabarse<br />- Tarea: práctica de grabación<br />- Agrupamiento: individual<br />- Espacio: aula<br />- Herramientas: tablet/móvil<br />- Objetivo: autonomía digital básica</p>\n<p>↓</p>\n<p>SESIÓN 4<br />↓<br />Primera grabación<br />- Tarea: grabar interpretación<br />- Agrupamiento: individual<br />- Espacio: aula<br />- Herramientas: cámara + Google Drive<br />- Objetivo: recoger evidencia inicial</p>\n<p>↓</p>\n<p>SESIÓN 5<br />↓<br />Autoevaluación<br />- Tarea: escuchar y analizar<br />- Agrupamiento: individual<br />- Espacio: aula<br />- Herramientas: vídeo + diana<br />- Objetivo: detectar errores</p>\n<p>↓</p>\n<p>SESIÓN 6-7<br />↓<br />Trabajo de mejora<br />- Tarea: practicar aspectos concretos<br />- Agrupamiento: individual<br />- Espacio: aula<br />- Herramientas: piano<br />- Objetivo: corregir errores</p>\n<p>↓</p>\n<p>SESIÓN 8<br />↓<br />Segunda grabación<br />- Tarea: grabar versión mejorada<br />- Agrupamiento: individual<br />- Espacio: aula<br />- Herramientas: cámara + Google Drive<br />- Objetivo: comprobar evolución</p>\n<p>↓</p>\n<p>SESIÓN 9<br />↓<br />Comparación<br />- Tarea: comparar grabaciones<br />- Agrupamiento: individual<br />- Espacio: aula<br />- Herramientas: Drive + vídeo<br />- Objetivo: desarrollar autocrítica</p>\n<p>↓</p>\n<p>SESIÓN 10<br />↓<br />Interpretación final<br />- Tarea: tocar pieza completa<br />- Agrupamiento: individual<br />- Espacio: aula / audición<br />- Herramientas: piano<br />- Objetivo: resultado final</p>\n<p>↓</p>\n<p>SESIÓN 11<br />↓<br />Pequeña audición<br />- Tarea: interpretación final<br />- Agrupamiento: individual<br />- Espacio: aula / sala<br />- Herramientas: piano / grabación opcional<br />- Objetivo: comunicación musical</p>\n<p><img src=\"{{context_path}}/content/resources/VISUAL LÍNEA TIEMPO.png\" title=\"línea temporal\" width=\"1528\" height=\"1019\" alt=\"línea temporal\" /></p>\n<p></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1776849573014-nexpc7vc2</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>CRITERIOS DE EVALUACIÓN</pageName>
+  <odeNavStructureOrder>5</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>CRITERIOS DE EVALUACIÓN</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1776849573014-nexpc7vc2</odePageId>
+      <odeBlockId>block-1776849578759-14ju4vnyo</odeBlockId>
+      <blockName>Texto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1776849573014-nexpc7vc2</odePageId>
+          <odeBlockId>block-1776849578759-14ju4vnyo</odeBlockId>
+          <odeIdeviceId>idevice-1776849578757-x6b2q3i18</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Me he basado en los criterios de calificación que aparecen en la Orden de 25 de octubre de 2007 por la que se desarrolla el currículo de las EE. PP. de música en Andalucía</p>
+<p><a href="https://docs.google.com/document/d/1TVz6O2YMev0qRmQAQXMzHlh16njYdIEL2QPRtR07jZg/edit?usp=sharing" title="">https://docs.google.com/document/d/1TVz6O2YMev0qRmQAQXMzHlh16njYdIEL2QPRtR07jZg/edit?usp=sharing</a></p>
+<p><br /></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1776849578757-x6b2q3i18","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Me he basado en los criterios de calificación que aparecen en la Orden de 25 de octubre de 2007 por la que se desarrolla el currículo de las EE. PP. de música en Andalucía</p>\n<p><a href=\"https://docs.google.com/document/d/1TVz6O2YMev0qRmQAQXMzHlh16njYdIEL2QPRtR07jZg/edit?usp=sharing\" title=\"\">https://docs.google.com/document/d/1TVz6O2YMev0qRmQAQXMzHlh16njYdIEL2QPRtR07jZg/edit?usp=sharing</a></p>\n<p><br /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1776849783567-h2x2cp5rz</odePageId>
+  <odeParentPageId>page-1776849573014-nexpc7vc2</odeParentPageId>
+  <pageName>Instrumentos de evaluación</pageName>
+  <odeNavStructureOrder>6</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Instrumentos de evaluación</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1776849783567-h2x2cp5rz</odePageId>
+      <odeBlockId>block-1776849831397-7kcsgm3x5</odeBlockId>
+      <blockName>Texto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1776849783567-h2x2cp5rz</odePageId>
+          <odeBlockId>block-1776849831397-7kcsgm3x5</odeBlockId>
+          <odeIdeviceId>idevice-1776849831394-7vpveb1bv</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>En el siguiente enlace se puede acceder a los instrumentos utilizados para la evaluación.</p>
+<p><a href="https://docs.google.com/document/d/1dGR_cAQkk9me21Pyt04iTf8LUBs7fX1TFEk0yA6fpns/edit?usp=sharing" title="">https://docs.google.com/document/d/1dGR_cAQkk9me21Pyt04iTf8LUBs7fX1TFEk0yA6fpns/edit?usp=sharing</a></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1776849831394-7vpveb1bv","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>En el siguiente enlace se puede acceder a los instrumentos utilizados para la evaluación.</p>\n<p><a href=\"https://docs.google.com/document/d/1dGR_cAQkk9me21Pyt04iTf8LUBs7fX1TFEk0yA6fpns/edit?usp=sharing\" title=\"\">https://docs.google.com/document/d/1dGR_cAQkk9me21Pyt04iTf8LUBs7fX1TFEk0yA6fpns/edit?usp=sharing</a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1776850458567-n6j0brwyz</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>GUÍA DIDÁCTICA</pageName>
+  <odeNavStructureOrder>6</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>GUÍA DIDÁCTICA</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1776850458567-n6j0brwyz</odePageId>
+      <odeBlockId>block-1776850488707-ncxnz9q3e</odeBlockId>
+      <blockName>Texto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1776850458567-n6j0brwyz</odePageId>
+          <odeBlockId>block-1776850488707-ncxnz9q3e</odeBlockId>
+          <odeIdeviceId>idevice-1776850488705-pazmtatii</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><strong>Guía didáctica</strong></p>
+<p>Este proyecto está diseñado para alumnado de enseñanzas elementales de piano (aproximadamente entre 10 y 12 años) y se centra en el desarrollo de la autonomía y la capacidad de autoevaluación mediante el uso de grabaciones.</p>
+<p><strong>Incluye:</strong></p>
+<p>-Relación de tareas con criterios de evaluación<br title="" />-Uso de herramientas digitales como grabación de vídeo y Google Drive<br />-Desarrollo de la competencia digital de forma progresiva<br />-Documento de tareas y criterios de evaluación: <a href="https://docs.google.com/document/d/1TVz6O2YMev0qRmQAQXMzHlh16njYdIEL2QPRtR07jZg/edit?usp=sharing">https://docs.google.com/document/d/1TVz6O2YMev0qRmQAQXMzHlh16njYdIEL2QPRtR07jZg/edit?usp=sharing</a><br /></p>
+<p><strong>Recomendaciones para el profesorado:</strong></p>
+<p>-Introducir la tecnología de forma progresiva<br />-Asegurar que el alumnado comprende el uso de las herramientas<br />-Adaptar el ritmo según las necesidades individuales<br />-No depender completamente de la tecnología</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1776850488705-pazmtatii","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Guía didáctica</strong></p>\n<p>Este proyecto está diseñado para alumnado de enseñanzas elementales de piano (aproximadamente entre 10 y 12 años) y se centra en el desarrollo de la autonomía y la capacidad de autoevaluación mediante el uso de grabaciones.</p>\n<p><strong>Incluye:</strong></p>\n<p>-Relación de tareas con criterios de evaluación<br title=\"\" />-Uso de herramientas digitales como grabación de vídeo y Google Drive<br />-Desarrollo de la competencia digital de forma progresiva<br />-Documento de tareas y criterios de evaluación: <a href=\"https://docs.google.com/document/d/1TVz6O2YMev0qRmQAQXMzHlh16njYdIEL2QPRtR07jZg/edit?usp=sharing\">https://docs.google.com/document/d/1TVz6O2YMev0qRmQAQXMzHlh16njYdIEL2QPRtR07jZg/edit?usp=sharing</a><br /></p>\n<p><strong>Recomendaciones para el profesorado:</strong></p>\n<p>-Introducir la tecnología de forma progresiva<br />-Asegurar que el alumnado comprende el uso de las herramientas<br />-Adaptar el ritmo según las necesidades individuales<br />-No depender completamente de la tecnología</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1776850177147-2pcdwxh1u</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>CRÉDITOS</pageName>
+  <odeNavStructureOrder>9</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>CRÉDITOS</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1776850177147-2pcdwxh1u</odePageId>
+      <odeBlockId>block-1776850180089-iup8e3kfi</odeBlockId>
+      <blockName>Texto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1776850177147-2pcdwxh1u</odePageId>
+          <odeBlockId>block-1776850180089-iup8e3kfi</odeBlockId>
+          <odeIdeviceId>idevice-1776850180086-qxf27xe3c</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><strong>Créditos del proyecto</strong></p>
+<p><strong title="">Autoría</strong>: Raúl Jiménez Medina<br /><strong>Centro</strong>: C.P.M "Maestro Chicano", Lucena<br /><strong>Descripción:</strong><br />Este recurso forma parte de una situación de aprendizaje titulada “Escucharse para mejorar”, orientada al alumnado de enseñanzas elementales de piano. El objetivo es fomentar la autoevaluación y la mejora interpretativa mediante el uso de grabaciones.<br /><strong>Licencia de uso:</strong><br />Este material se comparte bajo licencia Creative Commons (CC BY-NC-SA), lo que permite su uso, adaptación y difusión sin fines comerciales, siempre que se cite la autoría.<br /><strong>Descarga del archivo editable:</strong><br />Puedes descargar el archivo editable en el siguiente enlace:<br /><a href="https://drive.google.com/file/d/1TRLO6kNlslC-HyM7__ey54oHqIx6siZr/view?usp=sharing">https://drive.google.com/file/d/1TRLO6kNlslC-HyM7__ey54oHqIx6siZr/view?usp=sharing</a><br /></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1776850180086-qxf27xe3c","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Créditos del proyecto</strong></p>\n<p><strong title=\"\">Autoría</strong>: Raúl Jiménez Medina<br /><strong>Centro</strong>: C.P.M \"Maestro Chicano\", Lucena<br /><strong>Descripción:</strong><br />Este recurso forma parte de una situación de aprendizaje titulada “Escucharse para mejorar”, orientada al alumnado de enseñanzas elementales de piano. El objetivo es fomentar la autoevaluación y la mejora interpretativa mediante el uso de grabaciones.<br /><strong>Licencia de uso:</strong><br />Este material se comparte bajo licencia Creative Commons (CC BY-NC-SA), lo que permite su uso, adaptación y difusión sin fines comerciales, siempre que se cite la autoría.<br /><strong>Descarga del archivo editable:</strong><br />Puedes descargar el archivo editable en el siguiente enlace:<br /><a href=\"https://drive.google.com/file/d/1TRLO6kNlslC-HyM7__ey54oHqIx6siZr/view?usp=sharing\">https://drive.google.com/file/d/1TRLO6kNlslC-HyM7__ey54oHqIx6siZr/view?usp=sharing</a><br /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+</odeNavStructures>
+</ode>
